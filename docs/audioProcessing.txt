@@ -1,0 +1,14 @@
+Audio Context:
+Represents an Audio Processing Graph (graph DS) which consists of connected AudioNode(s).
+It controls both creation of the nodes and execution of audio processing.              
+
+More: https://developer.mozilla.org/en-US/docs/Web/API/AudioContext
+
+
+Audio Node: Interface for representing audio processing module. It could represent:
+- Audio Source (HTML audio, video , OscillatorNode etc)
+- Audio Destination
+- Intermediate Processing module (like an audio filter)
+- Volume control: like GainNode
+
+More: https://developer.mozilla.org/en-US/docs/Web/API/AudioNode
